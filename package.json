@@ -1,0 +1,19 @@
+{
+  "name": "liberty-city-discord-bot",
+  "version": "1.0.0",
+  "description": "LIBERTY CITY Discord bot starter",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.17.0",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7",
+    "play-dl": "^1.9.7"
+  }
+}
